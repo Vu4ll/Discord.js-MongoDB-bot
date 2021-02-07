@@ -125,3 +125,28 @@ client.on("guildMemberAdd", async (member) => {//'Vu4ll#0586
    return member.roles.add(`${data.rol}`);
 });
 //otorol son
+
+//sa-as
+client.on("message", async message => {//'Vu4ll#0586
+  const content = message.content.toLowerCase();
+  const saas = require("./models/sa-as");
+  const data = await saas.findOne({
+    sunucu: message.guild.id
+  });
+
+  if (
+    content == "sa" ||
+    content == "sea" ||
+    content == "selamün aleyküm" ||
+    content == "selamünaleyküm" ||
+    content == "s.a"
+  ) {
+    if (message.author.bot) return;
+    if (data) {
+      message.reply(`aleykümselam. Hoş geldin!`);
+    } else if (!data) {
+      return;
+    }
+  }
+});//'Vu4ll#0586
+//sa-as son
