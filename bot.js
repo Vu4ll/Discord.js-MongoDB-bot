@@ -111,3 +111,17 @@ client.unload = command => {
 //command handler son
 
 client.login(ayarlar.token)
+
+//otorol
+client.on("guildMemberAdd", async (member) => {//'Vu4ll#0586
+  if (member.bot) return;
+  const otorol = require("./models/otorol");
+
+  const data = await otorol.findOne({
+    sunucu: member.guild.id
+  });
+  if (!data) return;
+  if (data) 
+   return member.roles.add(`${data.rol}`);
+});
+//otorol son
