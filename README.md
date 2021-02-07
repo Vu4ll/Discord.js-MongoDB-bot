@@ -14,4 +14,4 @@
 
 ## Discord
 - ['Vu4ll#0586](https://discord.com/users/269480080823025664)
-- [CodAre](https://discord.gg/Dc2Y5H35sR)
+- [CodAre Development](https://discord.gg/Dc2Y5H35sR)
