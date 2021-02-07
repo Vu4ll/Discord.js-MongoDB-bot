@@ -9,7 +9,8 @@
   "dependencies": {
     "discord.js": "^12.5.1",
     "mongoose": "^5.11.13",
-    "fs": "^0.0.2"
+    "fs": "^0.0.2",
+    "express": "^4.17.1"
   },
   "engines": {
     "node": "12.x"
