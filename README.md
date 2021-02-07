@@ -15,3 +15,7 @@
 ## Discord
 - ['Vu4ll#0586](https://discord.com/users/269480080823025664)
 - [CodAre Development](https://discord.gg/Dc2Y5H35sR)
+
+## Not
+- Komutlara örnek bir kaç komut ekledim ;)
+- Mobilden hazırladım emeğe saygı. Teşekkürler.
