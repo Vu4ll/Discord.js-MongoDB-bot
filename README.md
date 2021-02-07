@@ -18,4 +18,3 @@
 
 ## Not
 - Komutlara örnek bir kaç komut ekledim ;)
-- Mobilden hazırladım emeğe saygı. Teşekkürler.
