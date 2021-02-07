@@ -10,7 +10,7 @@
 
 ## Mongoose bağlantısı için
 - [Bu video sizin işinizi görecektir.](https://youtu.be/0z5RYknYwDA)
-- Bağlantı linkinizi `bot.js`'deki blabla kısmına koyunuz
+- Bağlantı linkinizi `ayarlar.json`'a yerleştiriniz.
 
 ## Discord
 - ['Vu4ll#0586](https://discord.com/users/269480080823025664)
