@@ -3,7 +3,6 @@
 ## Bu repository Discord.js için hazırlanmıştır.
 - Elimden geldiğince Mongoose anlatmaya çalıştım.
 - Mongoose database örnekleri içermektedir.
-- Bu repository **[CodAre](https://discord.gg/Dc2Y5H35sR)'da istek üzerine** hazırlanmıştır.
 
 ## Mongoose yükleme
 - `npm i mongoose`
@@ -14,7 +13,8 @@
 
 ## Discord
 - ['Vu4ll#0586](https://discord.com/users/269480080823025664)
-- [CodAre Development](https://discord.gg/Dc2Y5H35sR)
+- Kendi botum [Trigon](https://top.gg/bot/760785842519801858)
+- [〝 V Ξ Я T У И O O И 〞ˎˊ˗](https://discord.gg/XqGYWH4)
 
 ## Not
 - Komutlara örnek bir kaç komut ekledim ;)
