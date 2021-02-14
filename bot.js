@@ -150,18 +150,3 @@ client.on("message", async message => {//'Vu4ll#0586
   }
 });//'Vu4ll#0586
 //sa-as son
-
-// mesaja tepki
-client.on("message", async message => {// 'Vu4ll#0586
-  const react = require("./models/react");
-  if (message.author.bot) return;
-  
-  const data = await react.findOne({
-    sunucu: message.guild.id
-  });
-  
-  if (message.channel.id == data.kanal) {
-    await message.react(data.emoji);
-  }
-});
-// mesaja tepki son
