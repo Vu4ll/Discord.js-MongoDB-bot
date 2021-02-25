@@ -18,3 +18,7 @@
 
 ## Not
 - Komutlara örnek bir kaç komut ekledim ;)
+
+## Değişim kaydı
+### 25 Şubat 2021
+- Dosyalarda ve komutlarda düzenleme yapıldı.
