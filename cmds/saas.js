@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-const saas = require("../models/sa-as");
+const saas = require("../models/saas");
 const Discord = require("discord.js");
-const { prefix } = require("../ayarlar.json");
+const { prefix } = require("../config/config.json");
 
 exports.run = async (client, message, args) => {//'Vu4ll#0586
   if (!message.member.hasPermission("MANAGE_MESSAGES"))
@@ -35,15 +35,9 @@ exports.run = async (client, message, args) => {//'Vu4ll#0586
   }
 };
 
-exports.conf = {
-  enabled: true,
-  guildOnly: false,
-  aliases: ["sa-as"],
-  permLevel: 0
-};
-
 exports.help = {//'Vu4ll#0586
   name: "saas",
   description: "",
-  usage: "saas <aç/kapat>"
+  usage: "saas <aç/kapat>",
+  aliases: []
 };
