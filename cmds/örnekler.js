@@ -53,15 +53,9 @@ exports.run = async (client, message, args) => {
   }
 };
 
-exports.conf = {
-  enabled: true,
-  guildOnly: false,
-  aliases: [],
-  permLevel: 0
-};
-
 exports.help = {
   name: "örnek",
   description: "",
-  usage: ""
+  usage: "!örnek <kayıt/veri/sil>",
+  aliases: []
 };
