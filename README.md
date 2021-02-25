@@ -10,7 +10,7 @@
 
 ## Mongoose bağlantısı için
 - [Bu video sizin işinizi görecektir.](https://youtu.be/0z5RYknYwDA)
-- Bağlantı linkinizi `ayarlar.json`'a yerleştiriniz.
+- Bağlantı linkinizi `config/config.json`'a yerleştiriniz.
 
 ## Discord
 - ['Vu4ll#0586](https://discord.com/users/269480080823025664)
