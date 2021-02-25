@@ -2,16 +2,17 @@ const Discord = require("discord.js");
 const mongoose = require("mongoose");
 const client = new Discord.Client({ disableMentions: "everyone" });
 const fs = require("fs");
-const ayarlar = require("./ayarlar.json")
+const config = require("./config/config.json")
 require("./util/eventLoader.js")(client);
 
 //mongoose bağlantı
-mongoose.connect(ayarlar.mongo, {
+mongoose.connect(config.mongo, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: true
   })
-  .then(console.log("MongoDB bağlandı!"));
+  .then(console.log("MongoDB bağlandı!"))
+  .catch(console.log("MongoDB bağlanamadı!"));
 //mongoose bağlantı son
 
 //oynuyor
@@ -32,21 +33,19 @@ const log = message => {
 };
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
-fs.readdir("./komutlar/", (err, files) => {
+fs.readdir("./cmds/", (err, files) => {
   if (err) console.error(err);
   log(`${files.length} komut yüklenecek.`);
   files.forEach(f => {
-    let props = require(`./komutlar/${f}`);
+    let props = require(`./cmds/${f}`);
     log(`Yüklenen komut: ${props.help.name}.`);
     client.commands.set(props.help.name, props);
-    props.conf.aliases.forEach(alias => {
+    props.help.aliases.forEach(alias => {
       client.aliases.set(alias, props.help.name);
     });
   });
 });
 //command handler son
-
-client.login(ayarlar.token)
 
 //otorol
 client.on("guildMemberAdd", async (member) => {//'Vu4ll#0586
@@ -65,7 +64,7 @@ client.on("guildMemberAdd", async (member) => {//'Vu4ll#0586
 //sa-as
 client.on("message", async message => {//'Vu4ll#0586
   const content = message.content.toLowerCase();
-  const saas = require("./models/sa-as");
+  const saas = require("./models/saas");
   const data = await saas.findOne({
     sunucu: message.guild.id
   });
@@ -86,3 +85,5 @@ client.on("message", async message => {//'Vu4ll#0586
   }
 });//'Vu4ll#0586
 //sa-as son
+
+client.login(config.token)
