@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const mongoose = require("mongoose");
 const client = new Discord.Client({ disableMentions: "everyone" });
 const fs = require("fs");
-const ayarlar = require("./json/ayarlar.json")
+const ayarlar = require("./ayarlar.json")
 require("./util/eventLoader.js")(client);
 
 //mongoose bağlantı
