@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const Discord = require("discord.js");
 const otorol = require("../models/otorol");
-const ayarlar = require("../ayarlar.json");
-const pr = ayarlar.prefix;
+const config = require("../config/config.json");
+const pr = config.prefix;
 
 exports.run = async (client, message, args) => {//'Vu4ll#0586
   if (!message.member.hasPermission("MANAGE_ROLES"))
@@ -43,15 +43,9 @@ exports.run = async (client, message, args) => {//'Vu4ll#0586
   }
 };
 
-exports.conf = {//'Vu4ll#0586
-  enabled: true,
-  guildOnly: false,
-  aliases: ["oto-rol"],
-  permLevel: 0
-};
-
 exports.help = {
   name: "otorol",
   description: "",
-  usage: "otorol <ayarla/sıfırla> <rol etiket>"
+  usage: "otorol <ayarla/sıfırla> <rol etiket>",
+  aliases: []
 };
