@@ -3,6 +3,7 @@
 ## Bu repository Discord.js için hazırlanmıştır.
 - Elimden geldiğince Mongoose anlatmaya çalıştım.
 - Mongoose database örnekleri içermektedir.
+- Örnekler [burada](https://github.com/Vu4ll/Discord.js-MongoDB-bot/blob/main/cmds/%C3%B6rnekler.js)
 
 ## Mongoose yükleme
 - `npm i mongoose`
@@ -21,4 +22,4 @@
 
 ## Değişim kaydı
 ### 25 Şubat 2021
-- Dosyalarda ve komutlarda düzenleme yapıldı.
+- Dosyalarda, komutlarda ve README dosyasında düzenlemeler yapıldı.
