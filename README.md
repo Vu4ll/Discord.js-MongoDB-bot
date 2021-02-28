@@ -1,4 +1,4 @@
-![Mongoose](https://cdn.discordapp.com/attachments/801488282999455814/815588807197458462/1614521885177.png448744f2d2d524d5570.jpg)
+![Mongoose](https://cdn.discordapp.com/attachments/801488282999455814/815588807197458462/1614521885177.png)
 
 ## Bu repository Discord.js için hazırlanmıştır.
 - Elimden geldiğince [Mongoose](https://www.npmjs.com/package/mongoose) anlatmaya çalıştım.
