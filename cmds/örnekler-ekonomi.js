@@ -25,7 +25,7 @@ exports.run = async (client, message, args) => {
     if (!args[1] || isNaN(args[1]))
       return message.channel.send(`Lütfen geçerli bir sayı gir!`); // rakam girilmemiş ise veya rakam değilse mesaj atsın
     data.para += Math.floor(parseInt(args[1]));
-    data.save(); // paranıza args[1] değerinde para ekledik
+    data.save(); // paramıza args[1] değerinde para ekledik
     message.reply(
       `bakiyene **${args[1]}** değerinde para eklendi! Şu anki bakiyen: **${data.para}**`
     ); // kanalımıza mesajı attık
