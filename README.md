@@ -1,11 +1,12 @@
 ![Mongoose](https://cdn.discordapp.com/attachments/801488282999455814/807953949868425246/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313735302f312a546134716b7448744f2d2d524d5570.jpg)
 
 ## Bu repository Discord.js için hazırlanmıştır.
-- Elimden geldiğince Mongoose anlatmaya çalıştım.
+- Elimden geldiğince [Mongoose](https://www.npmjs.com/package/mongoose) anlatmaya çalıştım.
 - Mongoose database örnekleri içermektedir.
 - Örnekler [burada](https://github.com/Vu4ll/Discord.js-MongoDB-bot/blob/main/cmds/%C3%B6rnekler.js).
 
 ## Mongoose yükleme
+- Mongoose npmjs.com sayfası: https://www.npmjs.com/package/mongoose
 - `npm i mongoose`
 
 ## Mongoose bağlantısı için
