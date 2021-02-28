@@ -26,3 +26,4 @@
 
 ### 28 Şubat 2021
 - [Ekonomi örnekleri](https://github.com/Vu4ll/Discord.js-MongoDB-bot/blob/main/cmds/%C3%B6rnekler-ekonomi.js) eklendi.
+- [Bot.js](https://github.com/Vu4ll/Discord.js-MongoDB-bot/blob/main/bot.js)'de ufak bir değişiklik yapıldı.
