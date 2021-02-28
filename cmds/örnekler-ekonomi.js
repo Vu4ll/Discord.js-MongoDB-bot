@@ -46,7 +46,7 @@ exports.run = async (client, message, args) => {
     }
     if (!args[1] || isNaN(args[1]))
       return message.channel.send(`Lütfen geçerli bir sayı gir!`);
-    if (args[1] >= data.para) 
+    if (args[1] >= data.para || args[1] <= 0) 
       return message.reply(`kendi parandan daha yüksek bir değer çıkartmak mı?`)
     data.para -= Math.floor(parseInt(args[1]));
     data.save(); // paramızı args[1] değerinde azalttık
