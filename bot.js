@@ -11,8 +11,7 @@ mongoose.connect(config.mongo, {
     useUnifiedTopology: true,
     useFindAndModify: true
   })
-  .then(console.log("MongoDB bağlandı!"))
-  .catch(console.log("MongoDB bağlanamadı!"));
+  .then(console.log("MongoDB bağlandı!"));
 //mongoose bağlantı son
 
 //oynuyor
