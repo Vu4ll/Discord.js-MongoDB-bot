@@ -23,3 +23,6 @@
 ## Değişim kaydı
 ### 25 Şubat 2021
 - Dosyalarda, komutlarda ve README dosyasında düzenlemeler yapıldı.
+
+### 28 Şubat 2021
+- [Ekonomi örnekleri](https://github.com/Vu4ll/Discord.js-MongoDB-bot/blob/main/cmds/%C3%B6rnekler-ekonomi.js) eklendi.
