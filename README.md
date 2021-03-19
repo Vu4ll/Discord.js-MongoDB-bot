@@ -17,14 +17,18 @@
 - ['Vu4ll#0586](https://discord.com/users/269480080823025664)
 - Kendi botum [Trigon](https://top.gg/bot/760785842519801858)
 - [〝 V Ξ Я T У И O O И 〞ˎˊ˗](https://discord.gg/XqGYWH4)
+- [🍥 Pika Development](https://discord.gg/axvcqFQf2m)
 
 ## Not
 - Komutlara örnek bir kaç komut ekledim ;)
 
 ## Değişim kaydı
-### 25 Şubat 2021
+### 25 Şubat
 - Dosyalarda, komutlarda ve README dosyasında düzenlemeler yapıldı.
 
-### 28 Şubat 2021
+### 28 Şubat
 - [Ekonomi örnekleri](https://github.com/Vu4ll/Discord.js-MongoDB-bot/blob/main/cmds/%C3%B6rnekler-ekonomi.js) eklendi.
 - [Bot.js](https://github.com/Vu4ll/Discord.js-MongoDB-bot/blob/main/bot.js)'de ufak bir değişiklik yapıldı.
+
+### 19 Mart
+- README dosyasında güncelleme yapıldı.
