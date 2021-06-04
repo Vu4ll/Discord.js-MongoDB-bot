@@ -23,14 +23,3 @@
 
 ## Not
 - Komutlara örnek bir kaç komut ekledim ;)
-
-## Değişim kaydı
-### 25 Şubat
-- Dosyalarda, komutlarda ve README dosyasında düzenlemeler yapıldı.
-
-### 28 Şubat
-- [Ekonomi örnekleri](https://github.com/Vu4ll/Discord.js-MongoDB-bot/blob/main/cmds/%C3%B6rnekler-ekonomi.js) eklendi.
-- [Bot.js](https://github.com/Vu4ll/Discord.js-MongoDB-bot/blob/main/bot.js)'de ufak bir değişiklik yapıldı.
-
-### 19 Mart
-- README dosyasında güncelleme yapıldı.
