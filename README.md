@@ -19,6 +19,8 @@
 - [〝 V Ξ Я T У И O O И 〞ˎˊ˗](https://discord.gg/XqGYWH4)
 - [🍥 Pika Development](https://discord.gg/axvcqFQf2m)
 
+![card](https://discord.c99.nl/widget/theme-3/269480080823025664.png)
+
 ## Not
 - Komutlara örnek bir kaç komut ekledim ;)
 
