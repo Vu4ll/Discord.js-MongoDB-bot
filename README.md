@@ -4,6 +4,7 @@
 - Elimden geldiğince [Mongoose](https://www.npmjs.com/package/mongoose) anlatmaya çalıştım.
 - Mongoose database örnekleri içermektedir.
 - Örnekler [burada](https://github.com/Vu4ll/Discord.js-MongoDB-bot/blob/main/cmds/%C3%B6rnekler.js).
+- Ayrıca Mongoose ayarlamalı lrefix sistemide mevcuttur. [Buraya tıklayarak](https://github.com/Vu4ll/Mongoose-prefix) bakabilirsiniz.
 
 ## Mongoose yükleme
 - Mongoose npmjs.com sayfası: https://www.npmjs.com/package/mongoose
